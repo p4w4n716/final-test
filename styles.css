@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #d6eaf8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Grouped selector for headers */
+h1, h2 {
+    margin-top: 0;
+}
+
+/* ID selector */
+#intro {
+    border: 2px dotted #000000;
+    background-color: #fdfde0;
+    padding: 10px;
+}
+
+/* Class selector */
+.special {
+    font-style: italic;
+}
+
+/* Nested/contextual selector */
+header h1 {
+    color: #ff0000;
+    font-size: 36px;
+}
+
+main h2 {
+    font-size: 24px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer em {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Additional styling for alignment */
+header, main, footer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
